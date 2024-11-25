@@ -41,8 +41,8 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <ServiceCard
               title="Classic Manicure"
-              price="$35"
-              description="Traditional nail care with perfectly polished finish"
+              price="ksh3500"
+              description="Acrylics with design"
               imageUrl="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80"
             />
             <ServiceCard
@@ -53,9 +53,9 @@ function App() {
             />
             <ServiceCard
               title="Luxury Pedicure"
-              price="$55"
-              description="Relaxing foot treatment with massage and polish"
-              imageUrl="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80"
+              price="ksh1500"
+              description="Relaxing foot treatment with massage and gel polish"
+              imageUrl="https://github.com/Lewisweru/Jessenails/blob/main/src/components/Images/WhatsApp%20Image%202024-11-25%20at%2017.48.41_c61005d8.jpg"
             />
           </div>
         </div>
@@ -80,15 +80,15 @@ function App() {
               <div className="space-y-2">
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>Mon - Fri: 9:00 AM - 7:00 PM</span>
+                  <span>Monday - Saturday: 8:00 AM - 8:00 PM</span>
                 </div>
-                <div className="flex items-center">
+               /* <div className="flex items-center">
                   <Clock className="h-5 w-5 text-pink-600 mr-2" />
                   <span>Sat: 10:00 AM - 6:00 PM</span>
-                </div>
+                </div> */
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>Sun: Closed</span>
+                  <span>Sun: On appointment</span>
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ function App() {
               <div className="space-y-2">
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>(555) 123-4567</span>
+                  <span>(254) 745782666</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-pink-600 mr-2" />
@@ -105,7 +105,7 @@ function App() {
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>123 Beauty Street, NY 10001</span>
+                  <span>Jessy Nails, 855 Kimathi Rd, Nanyuki</span>
                 </div>
               </div>
             </div>
