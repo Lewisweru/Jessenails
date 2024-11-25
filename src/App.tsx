@@ -82,10 +82,7 @@ function App() {
                   <Clock className="h-5 w-5 text-pink-600 mr-2" />
                   <span>Monday - Saturday: 8:00 AM - 8:00 PM</span>
                 </div>
-               /* <div className="flex items-center">
-                  <Clock className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>Sat: 10:00 AM - 6:00 PM</span>
-                </div> */
+    
                 <div className="flex items-center">
                   <Clock className="h-5 w-5 text-pink-600 mr-2" />
                   <span>Sun: On appointment</span>
@@ -97,7 +94,7 @@ function App() {
               <div className="space-y-2">
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>(254) 745782666</span>
+                  <span>0745782666</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-pink-600 mr-2" />
