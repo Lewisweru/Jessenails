@@ -125,7 +125,7 @@ function App() {
                   <Instagram className="h-6 w-6" />
                 </a>
                 <a href="#" className="hover:text-pink-400">
-                  <TikTok className="h-6 w-6" />
+                  <Facebook className="h-6 w-6" />
                 </a>
               </div>
             </div>
