@@ -98,7 +98,7 @@ function App() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-pink-600 mr-2" />
-                  <span>book@jessenails.com</span>
+                  <span>Jessybonke631@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-pink-600 mr-2" />
