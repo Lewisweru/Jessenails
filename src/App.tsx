@@ -147,7 +147,7 @@ function App() {
             </div>
           </div>
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} Jesse Nails. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Lewis Weru. All rights reserved.</p>
           </div>
         </div>
       </footer>
