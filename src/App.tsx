@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Clock, MapPin, Phone, Mail, WhatsApp, Instagram, Facebook } from 'lucide-react';
+import { Heart, Clock, MapPin, Phone, Mail, MessageSquareMore, Instagram, Facebook } from 'lucide-react';
 import Navbar from './components/Navbar';
 import ServiceCard from './components/ServiceCard';
 import Gallery from './components/Gallery';
@@ -93,7 +93,7 @@ function App() {
               <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
               <div className="space-y-2">
                 <div className="flex items-center">
-                  <WhatsApp className="h-5 w-5 text-pink-600 mr-2" />
+                  <MessageSquareMore className="h-5 w-5 text-pink-600 mr-2" />
                   <span>0745782666</span>
                 </div>
                 <div className="flex items-center">
