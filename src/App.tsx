@@ -121,7 +121,7 @@ function App() {
             <div>
               <h3 className="text-xl font-semibold mb-4">Connect With Us</h3>
               <div className="flex space-x-4">
-                <a href="https://www.instagram.com/jessynails____?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" className="hover:text-pink-400">
+                <a href="https://www.instagram.com/jessynails____?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank" className="hover:text-pink-400">
                   <Instagram className="h-6 w-6" />
                 </a>
                 <a href="#" className="hover:text-pink-400">
