@@ -1,12 +1,12 @@
 import React from 'react';
 
 const images = [
-  "https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1600020972925-c614926a5465?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1519014816548-bf5fe059798b?auto=format&fit=crop&w=800&q=80",
-  "https://images.unsplash.com/photo-1604902396830-1982d88f463c?auto=format&fit=crop&w=800&q=80"
+  "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0002.jpg",
+  "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0003.jpg",
+  "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0004.jpg",
+  "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0005.jpg",
+  "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0006.jpg",
+  "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0007.jpg"
 ];
 
 export default function Gallery() {
