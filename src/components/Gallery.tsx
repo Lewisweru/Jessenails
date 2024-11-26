@@ -11,7 +11,7 @@ const mediaItems = [
   },
   {
     type: "video",
-    src: "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Videos/nail_design.mp4", // Your video URL
+    src: "/src/components/Images/Snapinsta.app_video_AC43FF08C9D79B291974763BDC0EDCAD_video_dashinit.mp4", // Your video URL
   },
   {
     type: "image",
