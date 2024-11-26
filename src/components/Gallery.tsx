@@ -10,10 +10,6 @@ const mediaItems = [
     src: "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0003.jpg",
   },
   {
-    type: "video",
-    src: "/Snapinsta.app_video_AC43FF08C9D79B291974763BDC0EDCAD_video_dashinit.mp4", // Your video URL
-  },
-  {
     type: "image",
     src: "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0004.jpg",
   },
@@ -21,6 +17,26 @@ const mediaItems = [
     type: "image",
     src: "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0005.jpg",
   },
+    {
+    type: "image",
+    src: "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0006.jpg",
+  },
+    {
+    type: "image",
+    src: "https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/IMG-20241125-WA0007.jpg",
+  },
+  {
+    type: "video",
+    src: "/Snapinsta.app_video_AC43FF08C9D79B291974763BDC0EDCAD_video_dashinit.mp4", // Your video URL
+  },
+  {
+    type: "video",
+    src: "/Redvid1.mp4", // Your video URL
+  },
+  {
+    type: "video",
+    src: "/blackpinkvid.mp4", // Your video URL
+  }
 ];
 
 export default function Gallery() {
@@ -65,7 +81,7 @@ function HoverVideo({ videoSrc }: { videoSrc: string }) {
     <video
       ref={videoRef}
       src={videoSrc}
-      muted
+      //muted
       loop
       className="w-full h-64 object-cover"
       onMouseEnter={handleMouseEnter}
