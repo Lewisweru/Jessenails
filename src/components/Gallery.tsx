@@ -11,7 +11,7 @@ const mediaItems = [
   },
   {
     type: "video",
-    src: "/src/components/Images/Snapinsta.app_video_AC43FF08C9D79B291974763BDC0EDCAD_video_dashinit.mp4", // Your video URL
+    src: "/Snapinsta.app_video_AC43FF08C9D79B291974763BDC0EDCAD_video_dashinit.mp4", // Your video URL
   },
   {
     type: "image",
