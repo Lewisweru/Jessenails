@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Clock, MapPin, Phone, Mail, MessageSquareMore, Instagram, Facebook } from 'lucide-react';
+import PriceList from "./components/PriceList";
 import Navbar from './components/Navbar';
 import ServiceCard from './components/ServiceCard';
 import Gallery from './components/Gallery';
@@ -60,6 +61,11 @@ function App() {
           </div>
         </div>
       </section>
+      {/*Pricelist section*/}
+       <div>
+      <h1>Jessy Nails Price List</h1>
+      <PriceList />
+    </div>
 
       {/* Gallery Section */}
       <section id="gallery" className="py-20 bg-white px-4">
