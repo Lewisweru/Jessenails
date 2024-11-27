@@ -47,10 +47,10 @@ function App() {
               imageUrl="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80"
             />
             <ServiceCard
-              title="Gel Extensions"
-              price="$65"
-              description="Long-lasting gel extensions with premium finish"
-              imageUrl="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&w=800&q=80"
+              title="Your nail tech"
+              price=""
+              description=""
+              videoUrl="/nailTech"
             />
             <ServiceCard
               title="Luxury Pedicure"
