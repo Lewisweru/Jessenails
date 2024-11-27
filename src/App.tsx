@@ -50,7 +50,7 @@ function App() {
               title="Your nail tech"
               price=""
               description=""
-              videoUrl="/nailTech"
+              videoUrl="https://raw.githubusercontent.com/Lewisweru/Jessenails/Lewisweru-PriceList/public/nailTech.mp4"
             />
             <ServiceCard
               title="Luxury Pedicure"
