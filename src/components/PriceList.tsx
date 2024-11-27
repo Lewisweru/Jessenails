@@ -41,29 +41,49 @@ const priceList: PriceCategory[] = [
 
 const PriceList: React.FC = () => {
   return (
-    <div>
-      {priceList.map((category, index) => (
-        <div key={index} style={{ marginBottom: "2rem" }}>
-          <h2>{category.category}</h2>
-          <table style={{ width: "100%", borderCollapse: "collapse" }}>
-            <thead>
-              <tr>
-                <th style={{ textAlign: "left", borderBottom: "1px solid #ccc", padding: "0.5rem" }}>Service</th>
-                <th style={{ textAlign: "left", borderBottom: "1px solid #ccc", padding: "0.5rem" }}>Price (Ksh)</th>
-              </tr>
-            </thead>
-            <tbody>
-              {category.items.map((item, itemIndex) => (
-                <tr key={itemIndex}>
-                  <td style={{ padding: "0.5rem", borderBottom: "1px solid #eee" }}>{item.service}</td>
-                  <td style={{ padding: "0.5rem", borderBottom: "1px solid #eee" }}>{item.price}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      ))}
-    </div>
+    <section id="price-list" className="py-20 bg-white px-4">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
+          Jessy Nails Price List
+        </h2>
+        {priceList.map((category, index) => (
+          <div key={index} className="mb-8">
+            <h3 className="text-2xl font-semibold text-gray-700 mb-4">
+              {category.category}
+            </h3>
+            <div className="overflow-x-auto">
+              <table className="w-full border-collapse">
+                <thead>
+                  <tr>
+                    <th className="bg-pink-100 text-pink-600 px-4 py-2 border border-gray-200 text-left">
+                      Service
+                    </th>
+                    <th className="bg-pink-100 text-pink-600 px-4 py-2 border border-gray-200 text-left">
+                      Price (Ksh)
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {category.items.map((item, itemIndex) => (
+                    <tr
+                      key={itemIndex}
+                      className={itemIndex % 2 === 0 ? "bg-gray-50" : ""}
+                    >
+                      <td className="px-4 py-2 border border-gray-200">
+                        {item.service}
+                      </td>
+                      <td className="px-4 py-2 border border-gray-200">
+                        {item.price}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
   );
 };
 
