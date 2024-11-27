@@ -4,18 +4,28 @@ interface ServiceCardProps {
   title: string;
   price: string;
   description: string;
-  imageUrl: string;
+  imageUrl?: string; // Optional for cases where video is used
+  videoUrl?: string; // New prop for video
 }
 
-export default function ServiceCard({ title, price, description, imageUrl }: ServiceCardProps) {
+export default function ServiceCard({ title, price, description, imageUrl, videoUrl }: ServiceCardProps) {
   return (
     <div className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:-translate-y-2">
       <div className="aspect-w-16 aspect-h-9">
-        <img 
-          src={imageUrl} 
-          alt={title} 
-          className="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-110"
-        />
+        {videoUrl ? (
+          <video 
+            src={videoUrl} 
+            controls 
+            className="h-64 w-full object-cover"
+            aria-label={`${title} Video`}
+          />
+        ) : (
+          <img 
+            src={imageUrl} 
+            alt={title} 
+            className="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-110"
+          />
+        )}
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
         <div className="absolute bottom-0 p-6 text-white">
