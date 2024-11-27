@@ -63,7 +63,6 @@ function App() {
       </section>
       {/*Pricelist section*/}
        <div>
-      <h1>Jessy Nails Price List</h1>
       <PriceList />
     </div>
 
