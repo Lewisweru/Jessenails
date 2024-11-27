@@ -12,4 +12,30 @@
   .btn-primary {
     @apply bg-pink-600 text-white px-6 py-2 rounded-full hover:bg-pink-700 transition-colors;
   }
+
+  /* Table styling */
+  .price-table {
+    @apply w-full border-collapse text-left;
+  }
+  
+  .price-table th {
+    @apply bg-pink-100 text-pink-600 px-4 py-2 border border-gray-200;
+  }
+
+  .price-table td {
+    @apply px-4 py-2 border border-gray-200;
+  }
+
+  .price-table tr:nth-child(even) {
+    @apply bg-gray-50;
+  }
+  
+  .price-table tr:hover {
+    @apply bg-pink-50;
+  }
+  
+  /* Section title styling */
+  .section-title {
+    @apply text-4xl font-bold text-gray-800 mb-8 text-center;
+  }
 }
