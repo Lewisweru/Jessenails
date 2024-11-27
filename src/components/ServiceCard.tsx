@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
 interface ServiceCardProps {
   title: string;
@@ -9,15 +9,17 @@ interface ServiceCardProps {
 }
 
 export default function ServiceCard({ title, price, description, imageUrl, videoUrl }: ServiceCardProps) {
+  const [isPlaying, setIsPlaying] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const handleVideoClick = () => {
     if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play();
-      } else {
+      if (isPlaying) {
         videoRef.current.pause();
+      } else {
+        videoRef.current.play();
       }
+      setIsPlaying(!isPlaying);
     }
   };
 
@@ -25,19 +27,19 @@ export default function ServiceCard({ title, price, description, imageUrl, video
     <div className="group relative overflow-hidden rounded-2xl shadow-lg transition-all duration-300 hover:-translate-y-2">
       <div className="aspect-w-16 aspect-h-9">
         {videoUrl ? (
-          <video
+          <video 
             ref={videoRef}
             src={videoUrl}
-            onClick={handleVideoClick}
             className="h-64 w-full object-cover cursor-pointer"
-            muted
-            loop
             aria-label={`${title} Video`}
+            onClick={handleVideoClick}
+            loop
+            muted
           />
         ) : (
-          <img
-            src={imageUrl}
-            alt={title}
+          <img 
+            src={imageUrl} 
+            alt={title} 
             className="h-64 w-full object-cover transition-transform duration-300 group-hover:scale-110"
           />
         )}
