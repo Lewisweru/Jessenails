@@ -48,7 +48,7 @@ function App() {
               imageUrl="https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=80"
             />
             <ServiceCard
-              title="Your nail tech"
+              title="Your nail designer"
               price=""
               description=""
               videoUrl="https://raw.githubusercontent.com/Lewisweru/Jessenails/main/public/nailTech.mp4"
@@ -130,9 +130,11 @@ function App() {
                 <a href="https://www.instagram.com/jessynails____?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank" className="hover:text-pink-400">
                   <Instagram className="h-6 w-6" />
                 </a>
+                 {/* WhatsApp Icon */}
+      <a href="https://wa.me/+254745782666" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
+        <FaWhatsapp className="h-6 w-6" />
+      </a>
                 <a href="#" className="hover:text-pink-400">
-
-                  <FaWhatsapp size={24} style={{ color: '#25D366', marginRight: '10px' }} />
                   <Facebook className="h-6 w-6" />
                 </a>
               </div>
