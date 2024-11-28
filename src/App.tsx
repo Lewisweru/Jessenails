@@ -1,5 +1,6 @@
 import React from 'react';
 import { Heart, Clock, MapPin, Phone, Mail, MessageSquareMore, Instagram, Facebook } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
 import PriceList from "./components/PriceList";
 import Navbar from './components/Navbar';
 import ServiceCard from './components/ServiceCard';
@@ -130,6 +131,8 @@ function App() {
                   <Instagram className="h-6 w-6" />
                 </a>
                 <a href="#" className="hover:text-pink-400">
+
+                  <FaWhatsapp size={24} style={{ color: '#25D366', marginRight: '10px' }} />
                   <Facebook className="h-6 w-6" />
                 </a>
               </div>
