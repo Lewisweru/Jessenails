@@ -1,6 +1,7 @@
 import React from 'react';
 import { Heart, Clock, MapPin, Phone, Mail, MessageSquareMore, Instagram, Facebook } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 import PriceList from "./components/PriceList";
 import Navbar from './components/Navbar';
 import ServiceCard from './components/ServiceCard';
@@ -130,12 +131,19 @@ function App() {
                 <a href="https://www.instagram.com/jessynails____?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="blank" className="hover:text-pink-400">
                   <Instagram className="h-6 w-6" />
                 </a>
-                 {/* WhatsApp Icon */}
-      <a href="https://wa.me/+254745782666" target="_blank" rel="noopener noreferrer" className="hover:text-pink-400">
-        <FaWhatsapp className="h-6 w-6" />
-      </a>
+                <div className="flex space-x-4">
+                <a
+                   href="https://wa.me/254745782666"
+                    target="_blank"
+                     rel="noopener noreferrer"
+                    className="hover:text-pink-400"
+               >
+               <FaWhatsapp className="h-6 w-6 text-green-500" />
+               </a>
+                </div>
+                
                 <a href="#" className="hover:text-pink-400">
-                  <Facebook className="h-6 w-6" />
+                  <FaFacebook className="h-6 w-6" />
                 </a>
               </div>
             </div>
