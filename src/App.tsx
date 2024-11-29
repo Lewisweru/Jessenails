@@ -25,7 +25,7 @@ function App() {
         
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Welcome to Jesse Nails</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">Welcome to Jessy Nails</h1>
             <p className="text-xl mb-8">Experience luxury nail care in a serene environment</p>
             <a
               href="#booking"
@@ -122,7 +122,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-xl font-semibold mb-4">Jesse Nails</h3>
+              <h3 className="text-xl font-semibold mb-4">Jessy Nails</h3>
               <p className="text-gray-400">Luxury nail care services in the heart of the city</p>
             </div>
             <div>
