@@ -16,7 +16,7 @@ function App() {
       <section id="home" className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="/Herojesse.jpg"
+            src="/hero2.jpg"
             alt="Nail salon hero"
             className="w-full h-full object-cover"
           />
