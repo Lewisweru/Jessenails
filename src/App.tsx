@@ -16,7 +16,7 @@ function App() {
       <section id="home" className="relative h-screen">
         <div className="absolute inset-0">
           <img
-            src="https://github.com/Lewisweru/Jessenails/raw/main/src/components/Images/Profilepic.jpg"
+            src="/Herojesse.jpg"
             alt="Nail salon hero"
             className="w-full h-full object-cover"
           />
