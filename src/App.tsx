@@ -13,16 +13,16 @@ function App() {
       <Navbar />
       
       {/* Hero Section */}
-      <section id="home" className="relative h-screen">
-        <div className="absolute inset-0">
+      <section id="home" className="relative min-h-screen">
+        <div className="absolute inset-0 w-full h-full">
           <img
             src="/Herojesse.jpg"
             alt="Nail salon hero"
-            className="w-full h-full sm:object-cover object-contain"
+            className="w-full h-full object-cover sm:object-cover"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
         </div>
-        <div className="relative h-full flex items-center justify-center text-center text-white px-4">
+        <div className="relative flex items-center justify-center text-center text-white px-4">
           <div className="max-w-3xl">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
               Welcome to Jessy Nails
@@ -39,6 +39,7 @@ function App() {
           </div>
         </div>
       </section>
+
 
 
 
