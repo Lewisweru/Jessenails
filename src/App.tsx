@@ -18,11 +18,10 @@ function App() {
           <img
             src="/hero2.jpg"
             alt="Nail salon hero"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-contain"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
         </div>
-        
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Welcome to Jessy Nails</h1>
