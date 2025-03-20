@@ -18,23 +18,28 @@ function App() {
           <img
             src="/Herojesse.jpg"
             alt="Nail salon hero"
-            className="w-full h-full object-contain"
+            className="w-full h-full object-cover sm:object-contain"
           />
           <div className="absolute inset-0 bg-black bg-opacity-50" />
-        </div>
+         </div>
         <div className="relative h-full flex items-center justify-center text-center text-white px-4">
           <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">Welcome to Jessy Nails</h1>
-            <p className="text-xl mb-8">Experience luxury nail care in a serene environment</p>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
+              Welcome to Jessy Nails
+            </h1>
+            <p className="text-lg sm:text-xl mb-8">
+              Experience luxury nail care in a serene environment
+            </p>
             <a
               href="#booking"
-              className="inline-block bg-pink-600 text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-pink-700 transition-colors"
+              className="inline-block bg-pink-600 text-white px-6 sm:px-8 py-3 rounded-full text-lg font-semibold hover:bg-pink-700 transition-colors"
             >
               Book Appointment
             </a>
           </div>
         </div>
       </section>
+
 
       {/* Services Section */}
       <section id="services" className="py-20 px-4">
